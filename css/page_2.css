@@ -1,0 +1,203 @@
+header {
+  background: url(../img/bg_header.jpg) no-repeat top center/cover;
+  min-height: 100vh;
+  position: relative; }
+  header .header__baner-2 {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    header .header__baner-2 .title-2 {
+      text-align: center; }
+    header .header__baner-2 h1, header .header__baner-2 h3, header .header__baner-2 p {
+      display: block;
+      z-index: 1; }
+    header .header__baner-2 h1:after {
+      content: "";
+      display: block;
+      background-color: #444444;
+      width: 161px;
+      height: 2px;
+      position: relative;
+      top: 45px;
+      margin: 0 auto; }
+    header .header__baner-2 h3, header .header__baner-2 p {
+      font-size: 40px;
+      font-family: Yanone Kaffeesatz, sans-serif;
+      font-weight: lighter; }
+    header .header__baner-2 p {
+      margin-top: 0px;
+      font-weight: normal; }
+    header .header__baner-2 a {
+      padding-left: 26px; }
+
+.selection__game {
+  position: relative;
+  background: url(../img/bg_header_page3.png) no-repeat top center/cover; }
+  .selection__game .target {
+    display: inline-block;
+    background: url(../img/target.png) no-repeat center center;
+    width: 30px;
+    height: 30px;
+    margin-right: 19px;
+    margin-top: 40px; }
+  .selection__game nav {
+    position: static; }
+  .selection__game .nav__menu-2 {
+    position: static;
+    width: 964px;
+    height: 100px;
+    align-items: center;
+    font-size: 22px;
+    line-height: 100px;
+    font-family: Yanone Kaffeesatz, sans-serif;
+    font-weight: normal;
+    justify-content: space-between; }
+    .selection__game .nav__menu-2 li {
+      flex-basis: 282px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .selection__game .nav__menu-2 li p {
+        padding-right: 5px; }
+  .selection__game .wr {
+    padding: 0 30px 55px; }
+  .selection__game .game__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 30px -30px; }
+    .selection__game .game__grid .game__item {
+      max-width: 282px;
+      flex-basis: 282px;
+      min-height: 530px;
+      background-color: #252525;
+      border: 1px solid #48453e;
+      margin: 20px 30px 0;
+      padding: 17px 17px 0 17px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .selection__game .game__grid .game__item p {
+        padding-bottom: 19px;
+        font-size: 14px;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 500; }
+      .selection__game .game__grid .game__item .poster-2 {
+		cursor: pointer;
+        width: 245px;
+        height: 153px;
+        background: url(../img/poster_2.png) no-repeat center center;
+        margin-bottom: 18px; }
+		.selection__game .game__grid .game__item .poster-1 {
+		cursor: pointer;
+        width: 245px;
+        height: 153px;
+        background: url(../img/poster.png) no-repeat center center;
+        margin-bottom: 18px; }
+		.selection__game .game__grid .game__item .poster-3 {
+		cursor: pointer;
+        width: 245px;
+        height: 153px;
+        background: url(../img/poster_3.png) no-repeat center center;
+        margin-bottom: 18px; }
+		.selection__game .game__grid .game__item .poster-4 {
+		cursor: pointer;
+        width: 245px;
+        height: 153px;
+        background: url(../img/poster_4.png) no-repeat center center;
+        margin-bottom: 18px; }
+		.selection__game .game__grid .game__item .poster-5 {
+		cursor: pointer;
+        width: 245px;
+        height: 153px;
+        background: url(../img/poster_5.png) no-repeat center center;
+        margin-bottom: 18px; }
+		.selection__game .game__grid .game__item .poster-6 {
+		cursor: pointer;			
+        width: 245px;
+        height: 153px;
+        background: url(../img/poster_6.png) no-repeat center center;
+        margin-bottom: 18px; }
+      .selection__game .game__grid .game__item .button {
+        max-width: 218px;
+        margin: 24px 0; }
+      .selection__game .game__grid .game__item i {
+        padding: 0;
+        margin: 0; }
+    .selection__game .game__grid .showtext {
+      padding: 10px 0 0 9px;
+      z-index: 3; }
+
+.nav-2 {
+  justify-content: center;
+  align-items: center; }
+
+.nav__liner-2 {
+  background-color: rgba(0, 0, 0, 0.32);
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+
+.nav__menu-2 {
+  width: 80%;
+  font-size: 17px;
+  font-weight: 400;
+  z-index: 4; }
+  .nav__menu-2 i {
+    color: #f1c40f; }
+  .nav__menu-2 .fa:before {
+    font-size: 25px;
+    margin-right: 19px; }
+
+.fuctionss {
+  background-color: #f1c40f; }
+  .fuctionss .wr {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  .fuctionss .shield-outline {
+    display: inline-block;
+    width: 184px;
+    height: 218px;
+    background: url(../img/shield-outline.png) no-repeat center center;
+    margin-right: 65px;
+    margin-bottom: 20px; }
+  .fuctionss .texttt {
+    display: inline-block; }
+  .fuctionss h2 {
+    color: #1d1d1d;
+    font-size: 55px;
+    padding-bottom: 20px; }
+  .fuctionss p {
+    max-width: 625px;
+    font-size: 36px;
+    font-family: Yanone Kaffeesatz, sans-serif;
+    color: #1d1d1d; }
+
+.fuctionsst {
+  background-color: #171717; }
+  .fuctionsst h2, .fuctionsst p {
+    color: white; }
+  .fuctionsst .wr {
+    flex-direction: row-reverse; }
+  .fuctionsst .shield-outline {
+    width: 209px;
+    height: 193px;
+    background: url(../img/money-back-icon.png) no-repeat center center;
+    margin-right: 0px; }
+
+footer {
+  border: 1px solid #141414;
+  background-color: #141414;
+  padding-top: 0; }
+
+/*# sourceMappingURL=page_2.css.map */
